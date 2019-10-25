@@ -1,0 +1,22 @@
+{
+  "name": "formulaire with nodeJS",
+  "author": "github.com/prospero-romain",
+  "version": "1.0.0",
+  "description": "une api simple et commenté en nodeJS qui utilise Nodemailer",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "nodemailer"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemailer": "^4.6.8"
+  }
+}

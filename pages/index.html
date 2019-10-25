@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <title>Formulaire de prise de contact</title>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h4>Envoyer un mail d'information</h4>
+      <div class="form-area">
+        <form role="form" action="/send-email" method="post">
+          <br style="clear:both">
+          <div class="form-group">
+            <input class="form-control"  type="text" id="subject" name="subject" placeholder="Sujet du mail" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" type="textarea" id="message" name="message" placeholder="Votre message" maxlength="140" rows="7" required></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right btn-submit">Envoyer par mail</button>
+            <img src="https://cdn.acteur-fete.com/system/pictures/images/000/389/831/header/cheap-location-logo-1504188419.jpg?1520979094" alt="logo de l'entreprise utilisant le formulaire">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -20,4 +20,4 @@ If you want to use you want nodeJS > 11.1
 - modify serveur.js on line 25 for mail option 
 - use " $npm i --save " on terminal for install dependency
 - use " $node server.js" on terminal for run project
-- Open browser and go on http://localhost:8081
+- Open browser and go on http://localhost:3000

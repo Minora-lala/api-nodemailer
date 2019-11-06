@@ -27,7 +27,7 @@ app.post('/send-email', function (req, res) {
         // d'où vient le message
         from: 'Salon du seminaire 👥 <seminaire@nodemailer.fr>', // sender address
         // Sur qu'elle adresse il va être envoyer
-        to: 'contact@mon-entreprise.fr',
+        to: req.body.mail,
         // La forme du mail
         subject: req.body.subject,
         text: req.body.message,

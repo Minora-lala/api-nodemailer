@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <title>Formulaire de prise de contact</title>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h4>Envoyer un mail d'information</h4>
+            <div class="form-area">
+                <form role="form" action="/send-email" method="post">
+                    <br style="clear:both">
+                    <br style="clear:both">
+                    <div class="form-group">
+                        <input class="form-control"  type="mail" id="mail" name="mail" placeholder="Mail de reception" required>
+                    </div>
+                    <label for="logo">Choisir le logo de votre entreprise :</label>
+                    <input type="file"
+                           id="logo" name="logo"
+                           accept="image/png, image/jpeg">
+                    <div class="text-center">
+                        <button type="submit" id="submit" name="submit" class="btn btn-primary pull-right btn-submit">Configurer l'application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
